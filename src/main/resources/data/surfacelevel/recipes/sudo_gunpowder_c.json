@@ -8,10 +8,11 @@
   },
   "ingredients": [
     {"item": "minecraft:flint"},
-    {"item": "minecraft:coal"}
+    {"item": "minecraft:coal"},
+    {"item": "minecraft:redstone"}
   ],
   "result": {
-    "count": 1,
-    "id": "minecraft:gunpowder"
+    "count": 3,
+    "item": "minecraft:gunpowder"
   }
 }
