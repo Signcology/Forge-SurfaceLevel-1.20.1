@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "surfacelevel:block/hardstone"
+      },
+      {
+        "model": "surfacelevel:block/hardstone_mirrored"
+      },
+      {
+        "model": "surfacelevel:block/hardstone",
+        "x": 180
+      },
+      {
+        "model": "surfacelevel:block/hardstone_mirrored",
+        "x": 180
+      },
+      {
+        "model": "surfacelevel:block/hardstone_0002"
+      },
+      {
+        "model": "surfacelevel:block/hardstone_mirrored_0002",
+        "x": 180
+      }
+    ]
+  }
+}

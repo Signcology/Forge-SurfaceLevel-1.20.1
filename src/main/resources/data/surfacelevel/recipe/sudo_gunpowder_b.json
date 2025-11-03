@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:command_block"
+    }
+  },
+  "ingredients": [
+    {"item": "minecraft:flint"},
+    {"item": "minecraft:charcoal"}
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:gunpowder"
+  }
+}

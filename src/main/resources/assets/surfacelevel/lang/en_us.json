@@ -1,0 +1,11 @@
+{
+  "creativetab.surfacelevel.all": "Surface Level",
+  "block.surfacelevel.hardstone": "Hardstone",
+  "block.surfacelevel.hardslate": "Hardslate",
+  "block.surfacelevel.hardrack": "Hardrack",
+
+  "item.surfacelevel.chisel": "Chisel",
+  "tooltip.surfacelevel.chisel.tooltip" : "Hold shift for more info",
+  "tooltip.surfacelevel.chisel.shift_down" : "Right click hard rocks to make them mineable",
+  "item.surfacelevel.testytimmy": "Testy Timmy"
+}

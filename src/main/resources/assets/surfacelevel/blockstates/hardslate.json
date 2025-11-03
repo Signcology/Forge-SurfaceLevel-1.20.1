@@ -1,0 +1,62 @@
+{
+  "variants": {
+    "axis=x": [
+      {
+        "model": "surfacelevel:block/hardslate",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "surfacelevel:block/hardslate_mirrored",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "surfacelevel:block/hardslate",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "surfacelevel:block/hardslate_mirrored",
+        "x": 90,
+        "y": 90
+      }
+    ],
+    "axis=y": [
+      {
+        "model": "surfacelevel:block/hardslate"
+      },
+      {
+        "model": "surfacelevel:block/hardslate_mirrored"
+      },
+      {
+        "model": "surfacelevel:block/hardslate",
+        "y": 180
+      },
+      {
+        "model": "surfacelevel:block/hardslate_mirrored",
+        "y": 180
+      }
+    ],
+    "axis=z": [
+      {
+        "model": "surfacelevel:block/hardslate",
+        "x": 90
+      },
+      {
+        "model": "surfacelevel:block/hardslate_mirrored",
+        "x": 90
+      },
+      {
+        "model": "surfacelevel:block/hardslate",
+        "x": 90,
+        "y": 180
+      },
+      {
+        "model": "surfacelevel:block/hardslate_mirrored",
+        "x": 90,
+        "y": 180
+      }
+    ]
+  }
+}

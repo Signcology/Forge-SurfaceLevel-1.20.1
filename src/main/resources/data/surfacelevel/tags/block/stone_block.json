@@ -1,0 +1,10 @@
+{
+  "values": [
+    "minecraft:stone",
+    "minecraft:deepslate",
+    "minecraft:netherrack",
+    "surfacelevel:hardstone",
+    "surfacelevel:hardslate",
+    "surfacelevel:hardrack"
+  ]
+}

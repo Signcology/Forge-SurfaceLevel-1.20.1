@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_mirrored",
+  "textures": {
+    "side": "surfacelevel:block/hardslate_side",
+    "end": "surfacelevel:block/hardslate_end"
+  }
+}
