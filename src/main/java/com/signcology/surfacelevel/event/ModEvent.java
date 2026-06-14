@@ -46,12 +46,12 @@ public class ModEvent {
     }
 
     private static void generateHardBlock(Level level,BlockState block, BlockPos pos) {
-        System.out.println(canBeSeen(level, pos));
-        if(block.getBlock() == Blocks.STONE && !canBeSeen(level, pos)) {
+        //System.out.println(canBeSeen(level, pos));
+        if(block.getBlock() == Blocks.STONE && Config.generateHardstone && !canBeSeen(level, pos)) {
             level.setBlockAndUpdate(pos, ModBlocks.HARDSTONE.get().defaultBlockState());
-        } else if(block.getBlock() == Blocks.DEEPSLATE && !canBeSeen(level, pos)) {
+        } else if(block.getBlock() == Blocks.DEEPSLATE && Config.generateHardslate && !canBeSeen(level, pos)) {
             level.setBlockAndUpdate(pos, ModBlocks.HARDSLATE.get().defaultBlockState());
-        } else if(block.getBlock() == Blocks.NETHERRACK && !canBeSeen(level, pos)) {
+        } else if(block.getBlock() == Blocks.NETHERRACK && Config.generateHardrack && !canBeSeen(level, pos)) {
             level.setBlockAndUpdate(pos, ModBlocks.HARDRACK.get().defaultBlockState());
         }
     }

@@ -23,6 +23,18 @@ public class Config
             .comment("Is the chisel allowed to be used")
             .define("allowChisel", true);
 
+    private static final ForgeConfigSpec.BooleanValue GENERATE_HARDSTONE = BUILDER
+            .comment("Will generate Hardstones when mining stone")
+            .define("generateHardstone", true);
+
+    private static final ForgeConfigSpec.BooleanValue GENERATE_HARDSLATE = BUILDER
+            .comment("Will generate Hardslate when mining deepslate")
+            .define("generateHardslate", true);
+
+    private static final ForgeConfigSpec.BooleanValue GENERATE_HARDRACK = BUILDER
+            .comment("Will generate Hardrack when mining netherrack")
+            .define("generateHardrack", true);
+
     private static final ForgeConfigSpec.IntValue AIR_SEARCH_DISTANCE = BUILDER
             .comment("How far the mod will look for transparent block")
             .defineInRange("airSearchDistance", 1, 1, 255);
@@ -45,6 +57,9 @@ public class Config
     static final ForgeConfigSpec SPEC = BUILDER.build();
 
     public static boolean allowChisel;
+    public static boolean generateHardstone;
+    public static boolean generateHardslate;
+    public static boolean generateHardrack;
     public static int airSearchDistance;
     public static int updateDistance;
     public static int updateExplosionDistance;
@@ -59,6 +74,9 @@ public class Config
     static void onLoad(final ModConfigEvent event)
     {
         allowChisel = ALLOW_CHISEL.get();
+        generateHardstone = GENERATE_HARDSTONE.get();
+        generateHardslate = GENERATE_HARDSLATE.get();
+        generateHardrack = GENERATE_HARDRACK.get();
         airSearchDistance = AIR_SEARCH_DISTANCE.get();
         updateDistance = UPDATE_DISTANCE.get();
         updateExplosionDistance = UPDATE_EXPLOSION_DISTANCE.get();

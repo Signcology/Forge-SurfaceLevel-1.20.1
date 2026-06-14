@@ -5,6 +5,7 @@ import com.signcology.surfacelevel.block.ModBlocks;
 import com.signcology.surfacelevel.item.ModCreativeModeTabs;
 import com.signcology.surfacelevel.item.ModItems;
 import net.minecraft.client.Minecraft;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -56,8 +57,14 @@ public class SurfaceLevel
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-        //if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS)
-        //    event.accept(EXAMPLE_BLOCK_ITEM);
+        if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+            event.accept(ModBlocks.HARDSTONE);
+            event.accept(ModBlocks.HARDSLATE);
+            event.accept(ModBlocks.HARDRACK);
+        }
+        if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ModItems.CHISEL);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
