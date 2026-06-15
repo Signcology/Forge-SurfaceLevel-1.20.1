@@ -31,13 +31,9 @@ public class ChiselItem extends Item {
                     ModBlocks.HARDSTONE.get(), Blocks.STONE,
                     ModBlocks.HARDSLATE.get(), Blocks.DEEPSLATE,
                     ModBlocks.HARDRACK.get(), Blocks.NETHERRACK,
-                    Blocks.STONE_BRICKS, Blocks.CHISELED_STONE_BRICKS,
-                    Blocks.DEEPSLATE_BRICKS, Blocks.CHISELED_DEEPSLATE,
-                    Blocks.SANDSTONE, Blocks.CHISELED_SANDSTONE,
-                    Blocks.RED_SANDSTONE, Blocks.CHISELED_RED_SANDSTONE,
-                    Blocks.NETHER_BRICKS, Blocks.CHISELED_NETHER_BRICKS,
-                    Blocks.POLISHED_BLACKSTONE_BRICKS, Blocks.CHISELED_POLISHED_BLACKSTONE,
-                    Blocks.QUARTZ_BLOCK, Blocks.CHISELED_QUARTZ_BLOCK
+                    Blocks.DEEPSLATE_COPPER_ORE, Blocks.RAW_COPPER_BLOCK,
+                    Blocks.DEEPSLATE_IRON_ORE, Blocks.RAW_IRON_BLOCK,
+                    Blocks.DEEPSLATE_GOLD_ORE, Blocks.RAW_GOLD_BLOCK
             );
 
     public ChiselItem(Properties pProperties) {
